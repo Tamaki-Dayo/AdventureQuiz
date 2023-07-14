@@ -1,0 +1,46 @@
+[
+  {
+    "id": "scene1",
+    "description": "You wake up in a dark room. There are two doors in front of you.",
+    "next": "scene2"
+  },
+  {
+    "id": "scene2",
+    "description": "You enter a long hallway. There is a staircase going up.",
+    "next": "scene3"
+  },
+  {
+    "id": "scene3",
+    "description": "You find yourself in a dusty old kitchen. There is a trapdoor on the floor.",
+    "next": "scene4"
+  },
+  {
+    "id": "scene4",
+    "description": "You reach the attic. It's filled with old furniture and cobwebs.",
+    "question": {
+      "text": "What is the capital of France?",
+      "options": [
+        {
+          "text": "Paris",
+          "correct": true,
+          "next": "scene5"
+        },
+        {
+          "text": "Incorrect",
+          "correct": false,
+          "next": "scene3"
+        }
+      ]
+    }
+  },
+  {
+    "id": "scene5",
+    "description": "One more test",
+    "next": "scene6"
+  },
+  {
+    "id": "scene6",
+    "description": "finish",
+    "next": null
+  }
+]

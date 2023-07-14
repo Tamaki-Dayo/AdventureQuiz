@@ -1,0 +1,29 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+}
