@@ -19,9 +19,18 @@ export default function Adventure() {
 
   if (!currentScene) {
     return (
-      <div>
-        <h1>Congratulations!</h1>
-        <p>You have completed the adventure.</p>
+      <div className='flex items-center justify-center h-screen tracking-widest'>
+        <div className='mb-24'>
+          <h1 className="text-center text-8xl font-extrabold text-white mb-16">Credits</h1>
+          <div className="grid grid-cols-2 gap-x-20 gap-y-8">
+            <h2 className="text-end text-4xl text-gray-300">Chief Producer</h2>
+            <p className="text-4xl text-gray-100">Vern</p>
+            <h2 className="text-end text-4xl text-gray-300">Art Director</h2>
+            <p className="text-4xl text-gray-100">Tempest</p>
+            <h2 className="text-end text-4xl text-gray-300">Lead Developer</h2>
+            <p className="text-4xl text-gray-100">Tamaki</p>
+          </div>
+        </div>
       </div>
     );
   }
