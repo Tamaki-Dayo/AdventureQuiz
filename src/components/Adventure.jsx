@@ -4,10 +4,20 @@ import Quiz from './Quiz';
 
 export default function Adventure() {
   const [currentScene, setCurrentScene] = useState('scene1');
+  const [playerName, setPlayerName] = useState('Random Wisp');
+  const [updatedSentence, setUpdatedSentence] = useState();
 
   const handleContinue = (nextScene) => {
     setCurrentScene(nextScene);
   };
+
+  // Change "scene5" to second last scene
+  if(currentScene == "scene5") {
+    let newDescription = adventureData.find((scene) => scene.id === nextScene).description
+    let changedDescription = newDescription.replace(/nameHere/g, playerName)
+
+    setUpdatedSentence(changedDescription)
+  }
 
   const handleQuizComplete = (isCorrect, options) => {
     if (isCorrect) {
@@ -40,7 +50,7 @@ export default function Adventure() {
   return (
     <div>
       <h1>Adventure Game</h1>
-      <p>{currentSceneData.description}</p>
+      {updatedSentence ? <p>{updatedSentence}</p> : <p>{currentSceneData.description}</p>}
 
       {currentSceneData.question && (
         <Quiz
