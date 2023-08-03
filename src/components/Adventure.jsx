@@ -2,22 +2,24 @@ import { useState } from 'react';
 import adventureData from '../data/adventure.json';
 import Quiz from './Quiz';
 
-export default function Adventure() {
+export default function Adventure({ name }) {
   const [currentScene, setCurrentScene] = useState('scene1');
-  const [playerName, setPlayerName] = useState('Random Wisp');
-  const [updatedSentence, setUpdatedSentence] = useState();
+  const [testName, setTestName] = useState(name)
+  const [updatedSentence, setUpdatedSentence] = useState()
 
   const handleContinue = (nextScene) => {
     setCurrentScene(nextScene);
+
+    // Change "scene6" to second last scene
+    if(currentScene !== "scene6") {      
+      let newDescription = adventureData.find((scene) => scene.id === nextScene).description
+      let secondtest = newDescription.replace(/nameHere/g, testName)
+  
+      setUpdatedSentence(secondtest)
+      console.log(secondtest)
+    }
+
   };
-
-  // Change "scene5" to second last scene
-  if(currentScene == "scene5") {
-    let newDescription = adventureData.find((scene) => scene.id === nextScene).description
-    let changedDescription = newDescription.replace(/nameHere/g, playerName)
-
-    setUpdatedSentence(changedDescription)
-  }
 
   const handleQuizComplete = (isCorrect, options) => {
     if (isCorrect) {

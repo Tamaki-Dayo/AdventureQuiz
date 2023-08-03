@@ -9,10 +9,12 @@ module.exports = {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'test-webp': "url('/test.webp')",
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      }
     },
   },
+  variants: {},
   plugins: [],
 }
