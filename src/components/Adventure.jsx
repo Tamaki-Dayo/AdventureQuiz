@@ -4,7 +4,7 @@ import Quiz from './Quiz';
 
 export default function Adventure({ name }) {
   const [currentScene, setCurrentScene] = useState('scene1');
-  const [testName, setTestName] = useState(name)
+  const [playerName, setPlayerName] = useState(name)
   const [updatedSentence, setUpdatedSentence] = useState()
 
   const handleContinue = (nextScene) => {
@@ -12,13 +12,11 @@ export default function Adventure({ name }) {
 
     // Change "scene6" to second last scene
     if(currentScene !== "scene6") {      
-      let newDescription = adventureData.find((scene) => scene.id === nextScene).description
-      let secondtest = newDescription.replace(/nameHere/g, testName)
+      let oldDescription = adventureData.find((scene) => scene.id === nextScene).description
+      let newDescription = oldDescription.replace(/nameHere/g, playerName)
   
-      setUpdatedSentence(secondtest)
-      console.log(secondtest)
+      setUpdatedSentence(newDescription)
     }
-
   };
 
   const handleQuizComplete = (isCorrect, options) => {
