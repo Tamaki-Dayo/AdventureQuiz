@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import adventureData from '../data/adventure.json';
+import Textbox from './common/Textbox';
 import Quiz from './Quiz';
 
 export default function Adventure({ name }) {
@@ -48,8 +49,8 @@ export default function Adventure({ name }) {
   const currentSceneData = adventureData.find((scene) => scene.id === currentScene);
 
   return (
-    <div>
-      <h1>Adventure Game</h1>
+    <>
+      {/* <h1>Adventure Game</h1>
       {updatedSentence ? <p>{updatedSentence}</p> : <p>{currentSceneData.description}</p>}
 
       {currentSceneData.question && (
@@ -61,7 +62,8 @@ export default function Adventure({ name }) {
 
       {!currentSceneData.question && (
         <button onClick={() => handleContinue(currentSceneData.next)}>Continue</button>
-      )}
-    </div>
+      )} */}
+      <Textbox />
+    </>
   );
 }
