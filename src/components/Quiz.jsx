@@ -1,42 +1,18 @@
-import { useState } from 'react';
+import Button from './common/Button';
 
 export default function Quiz({ question, onComplete }) {
-  const [selectedOption, setSelectedOption] = useState('');
-
-  const handleOptionSelect = (option) => {
-    setSelectedOption(option.text);
-  };
-
-  const handleAnswerSubmit = () => {
-    const selectedOptionObject = question.options.find(
-      (option) => option.text === selectedOption
-    );
-
-    if (selectedOptionObject) {
-      onComplete(selectedOptionObject.correct);
-    }
+  function handleClick(e) {
+    onComplete(e.target.value);
   };
 
   return (
     <div>
       <h2>{question.text}</h2>
-      <ul>
+      <div className='flex flex-col'>
         {question.options.map((option, index) => (
-          <li key={index}>
-            <label>
-              <input
-                type="radio"
-                name="quizOption"
-                value={option.text}
-                checked={selectedOption === option.text}
-                onChange={() => handleOptionSelect(option)}
-              />
-              {option.text}
-            </label>
-          </li>
+          <Button key={index} value={option.correct} text={option.text} onClick={handleClick}/>
         ))}
-      </ul>
-      <button onClick={handleAnswerSubmit}>Submit Answer</button>
+      </div>
     </div>
   );
 }

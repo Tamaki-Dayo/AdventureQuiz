@@ -2,7 +2,6 @@ import { useState } from 'react';
 import adventureData from '../data/adventure.json';
 import Textbox from './common/Textbox';
 import Quiz from './Quiz';
-import Button from './common/Button';
 
 export default function Adventure({ name }) {
   const [currentScene, setCurrentScene] = useState('scene1');
@@ -51,25 +50,15 @@ export default function Adventure({ name }) {
 
   return (
     <>
-      {/* <h1>Adventure Game</h1>
-      {updatedSentence ? <p>{updatedSentence}</p> : <p>{currentSceneData.description}</p>}
-
-      {currentSceneData.question && (
-        <Quiz
-          question={currentSceneData.question}
-          onComplete={(isCorrect) => handleQuizComplete(isCorrect, currentSceneData.question.options)}
-        />
-      )}
-
-      {!currentSceneData.question && (
-        <button onClick={() => handleContinue(currentSceneData.next)}>Continue</button>
-      )} */}
       {!currentSceneData.question && (
         <Textbox description={updatedSentence ? updatedSentence : currentSceneData.description} handleContinue={() => handleContinue(currentSceneData.next)}/>
       )}
 
       {currentSceneData.question && (
-        currentSceneData.question.options.map((item) => <button>{item.text}</button>)
+        <Quiz
+        question={currentSceneData.question}
+        onComplete={(isCorrect) => handleQuizComplete(isCorrect, currentSceneData.question.options)}
+        />
       )}
     </>
   );
