@@ -2,6 +2,7 @@ import { useState } from 'react';
 import adventureData from '../data/adventure.json';
 import Textbox from './common/Textbox';
 import Quiz from './Quiz';
+import Button from './common/Button';
 
 export default function Adventure({ name }) {
   const [currentScene, setCurrentScene] = useState('scene1');
@@ -63,7 +64,13 @@ export default function Adventure({ name }) {
       {!currentSceneData.question && (
         <button onClick={() => handleContinue(currentSceneData.next)}>Continue</button>
       )} */}
-      <Textbox />
+      {!currentSceneData.question && (
+        <Textbox description={updatedSentence ? updatedSentence : currentSceneData.description} handleContinue={() => handleContinue(currentSceneData.next)}/>
+      )}
+
+      {currentSceneData.question && (
+        currentSceneData.question.options.map((item) => <button>{item.text}</button>)
+      )}
     </>
   );
 }

@@ -2,11 +2,25 @@
   {
     "id": "scene1",
     "description": "You wake up in a dark room. There are two doors in front of you.",
-    "next": "scene2"
+    "question": {
+      "text": "What is the capital of France?",
+      "options": [
+        {
+          "text": "Paris",
+          "correct": true,
+          "next": "scene2"
+        },
+        {
+          "text": "Incorrect",
+          "correct": false,
+          "next": "scene1"
+        }
+      ]
+    }
   },
   {
     "id": "scene2",
-    "description": "You enter a long hallway. There is a staircase going up.",
+    "description": "nameHere enter a long hallway. There is a staircase going up.",
     "next": "scene3"
   },
   {

@@ -15,7 +15,7 @@ export default function Home() {
   }
 
   return (
-    <div className='flex items-center justify-center h-screen'>
+    <div className='flex items-end justify-center h-screen'>
       {showAdventure ? <Adventure name={name} /> : (
         <div className=" relative flex h-screen items-center justify-center">
           <div className="absolute inset-0 bg-[url('/test.webp')] opacity-75"></div>
