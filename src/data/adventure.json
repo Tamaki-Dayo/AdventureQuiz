@@ -14,13 +14,23 @@
           "text": "Incorrect",
           "correct": false,
           "next": "scene1"
+        },
+        {
+          "text": "Incorrect",
+          "correct": false,
+          "next": "scene1"
+        },
+        {
+          "text": "Incorrect",
+          "correct": false,
+          "next": "scene1"
         }
       ]
     }
   },
   {
     "id": "scene2",
-    "description": "nameHere enter a long hallway. There is a staircase going up.",
+    "description": "nameHere enter a long hallway. There is a staircase going up. nameHere enter a long hallway. There is a staircase going up. nameHere enter a long hallway. There is a staircase going up. nameHere enter a long hallway. There is a staircase going up. nameHere enter a long hallway. There is a staircase going up.",
     "next": "scene3"
   },
   {

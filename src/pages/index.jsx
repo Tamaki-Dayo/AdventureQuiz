@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Adventure from '@/components/Adventure';
+import Adventure from '@/components/features/Adventure';
 
 export default function Home() {
 
@@ -15,12 +15,12 @@ export default function Home() {
   }
 
   return (
-    <div className='flex items-end justify-center h-screen'>
+    <div className='flex justify-center h-screen'>
       {showAdventure ? <Adventure name={name} /> : (
         <div className=" relative flex h-screen items-center justify-center">
           <div className="absolute inset-0 bg-[url('/test.webp')] opacity-75"></div>
           <div className="relative">
-            <p className="text-center text-2xl font-extrabold text-white wordShadow">Within this forest, your choices will guide your path, unveiling concealed truths as you embark on an exploration like no other. Prepare yourself for a captivating journey filled with adventure. What shall we call you?</p>
+            <p className="text-center text-2xl font-extrabold text-white">You open your eyes... Before you is a forest, behind you a white expanse. Something calls you into that forest but you don't remember anything except your name.</p>
             <div className='flex justify-center items-center h-full'>
               <div className='p-8 '>
                 <input
@@ -35,7 +35,7 @@ export default function Home() {
                   onClick={start}
                   disabled={!name}
                 >
-                  Begin
+                  Move Forward
                 </button>
               </div>
             </div>
