@@ -44,7 +44,7 @@ export default function Adventure({ name }) {
   const currentSceneData = adventureData.find((scene) => scene.id === currentScene);
 
   return (
-    <>
+    <div className="flex justify-center h-screen">
       {!currentSceneData.question && (
         <Textbox description={updatedSentence ? updatedSentence : currentSceneData.description} handleContinue={() => handleContinue(currentSceneData.next)}/>
       )}
@@ -55,6 +55,6 @@ export default function Adventure({ name }) {
         onComplete={(isCorrect) => handleQuizComplete(isCorrect, currentSceneData.question.options)}
         />
       )}
-    </>
+    </div>
   );
 }
