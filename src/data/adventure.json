@@ -1,7 +1,7 @@
 [
   {
     "id": "scene1",
-    "description": "They start moving forward… But then they notice, how are they doing it? They don’t feel the ground below theyr… Feet? Looking down confusion strikes; they don’t have feet! Hell, they don’t even have legs! But when they are going to start panicking memories come back to they.",
+    "description": "They start moving forward… But then they notice, how are they doing it? They don’t feel the ground below their… Feet? Looking down confusion strikes; they don’t have feet! Hell, they don’t even have legs! But when they are going to start panicking memories come back to them.",
     "next": "scene2"
   },
   {
@@ -11,7 +11,7 @@
   },
   {
     "id": "scene3",
-    "description": "Assuming that the forest may hold answers and even their memories nameHere continues moving forward until the space starts to contort and change and another wisp appears just in front of them.",
+    "description": "Assuming that the forest may hold answers and even their memories nameHere continues moving forward until space starts to contort and change and another wisp appears just in front of them.",
     "next": "scene4"
   },
   {

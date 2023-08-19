@@ -34,7 +34,7 @@ export default function Adventure({ name }) {
   if (currentScene == "scene23") {
     return (
       {showEnding} ? (
-        <Ending />
+        <Ending playerName={playerName}/>
       ) : (
         <Textbox description={updatedSentence ? updatedSentence : currentSceneData.description} handleContinue={() => handleLastContinue()}/>
       )

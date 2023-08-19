@@ -19,12 +19,12 @@ export default function Credits({ handleNext }) {
         <div className='flex flex-wrap justify-center text-center p-6 mx-auto'>
           <div className='text-3xl text-gray-100 w-1/4 py-3'>Fayris</div>
           <div className='text-3xl text-gray-100 w-1/4 py-3'>Yuzz</div>
-          <div className='text-3xl text-gray-100 w-1/4 py-3'>Metal</div>
           <div className='text-3xl text-gray-100 w-1/4 py-3'>Meyvol</div>
           <div className='text-3xl text-gray-100 w-1/4 py-3'>Pikachu</div>
           <div className='text-3xl text-gray-100 w-1/4 py-3'>Digital</div>
-          <div className='text-3xl text-gray-100 w-1/4 py-3'>who</div>
-          <div className='text-3xl text-gray-100 w-1/4 py-3'>else</div>
+          <div className='text-3xl text-gray-100 w-1/4 py-3'>Neji</div>
+          <div className='text-3xl text-gray-100 w-1/4 py-3'>Star</div>
+          <div className='text-3xl text-gray-100 w-1/4 py-3'>Onyx</div>
         </div>
       </div>
     </div>
