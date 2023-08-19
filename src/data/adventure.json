@@ -1,70 +1,342 @@
 [
   {
     "id": "scene1",
-    "description": "You wake up in a dark room. There are two doors in front of you.",
-    "question": {
-      "text": "What is the capital of France?",
-      "options": [
-        {
-          "text": "Paris",
-          "correct": true,
-          "next": "scene2"
-        },
-        {
-          "text": "Incorrect",
-          "correct": false,
-          "next": "scene1"
-        },
-        {
-          "text": "Incorrect",
-          "correct": false,
-          "next": "scene1"
-        },
-        {
-          "text": "Incorrect",
-          "correct": false,
-          "next": "scene1"
-        }
-      ]
-    }
+    "description": "They start moving forward… But then they notice, how are they doing it? They don’t feel the ground below theyr… Feet? Looking down confusion strikes; they don’t have feet! Hell, they don’t even have legs! But when they are going to start panicking memories come back to they.",
+    "next": "scene2"
   },
   {
     "id": "scene2",
-    "description": "nameHere enter a long hallway. There is a staircase going up. nameHere enter a long hallway. There is a staircase going up. nameHere enter a long hallway. There is a staircase going up. nameHere enter a long hallway. There is a staircase going up. nameHere enter a long hallway. There is a staircase going up.",
+    "description": "Yes, this is totally normal, nameHere are a wisp after all. Now that they have a sense of self things start making a little more sense, though they still don’t remember much.",
     "next": "scene3"
   },
   {
     "id": "scene3",
-    "description": "You find yourself in a dusty old kitchen. There is a trapdoor on the floor.",
+    "description": "Assuming that the forest may hold answers and even their memories nameHere continues moving forward until the space starts to contort and change and another wisp appears just in front of them.",
     "next": "scene4"
   },
   {
     "id": "scene4",
-    "description": "You reach the attic. It's filled with old furniture and cobwebs.",
+    "description": "Fear? nameHere should be feeling it, by any metric this is scary but… They can’t shake the feeling that they know them, even if they don’t remember.",
+    "next": "scene5"
+  },
+  {
+    "id": "scene5",
+    "description": "Before nameHere can even try and say anything they just ask them a question, giving even options to answer it.",
+    "next": "scene6"
+  },
+  {
+    "id": "scene6",
+    "description": "Yuzz",
     "question": {
-      "text": "What is the capital of France?",
+      "text": "When was Meiya's first ever karaoke stream?",
       "options": [
         {
-          "text": "Paris",
-          "correct": true,
-          "next": "scene5"
+          "text": "January 1st 2022",
+          "correct": false,
+          "next": "scene100"
         },
         {
-          "text": "Incorrect",
+          "text": "December 25th 2021",
           "correct": false,
-          "next": "scene3"
+          "next": "scene100"
+        },
+        {
+          "text": "December 25th 2022",
+          "correct": true,
+          "next": "scene7"
+        },
+        {
+          "text": "December 26th 2021",
+          "correct": false,
+          "next": "scene100"
         }
       ]
     }
   },
   {
-    "id": "scene5",
-    "description": "One more test",
-    "next": "scene6"
+    "id": "scene100",
+    "description": "No... It wasn't like that... They remember now, yes, that actually happened on December 25th 2022, they have seen it happen, actually. How could nameHere have forgotten? They remember now, this Meiya was an important figure for them, someone that they looked up to for several reasons..",
+    "next": "scene8"
   },
   {
-    "id": "scene6",
-    "description": "finish",
-    "next": null
+    "id": "scene7",
+    "description": "nameHere answered using their instinct but they remember now… Yes, that happened, they have seen it happen, actually. How could nameHere have forgotten? They remember now, this Meiya was an important figure for them, someone that they looked up to for several reasons.",
+    "next": "scene8"
+  },
+  {
+    "id": "scene8",
+    "description": "And they now recognize the other wisp, who just points towards certain direction, nameHere understands, their journey must continue if they want to recover their memories.",
+    "next": "scene9"
+  },
+  {
+    "id": "scene9",
+    "description": "Not much time passes before the situation repeats itself. Space contorts and changes and another wisp appears in front of nameHere… Already expecting this it doesn’t suppose too much of a surprise anymore.",
+    "next": "scene10"
+  },
+  {
+    "id": "scene10",
+    "description": "Meyvol",
+    "question": {
+      "text": "What game has Meiya told on stream that started chats whole funny copypasta shenanigans?",
+      "options": [
+        {
+          "text": "Final Fantasy 8",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "Elden Ring",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "Super Mario Sunshine",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "Cyberpunk 2077",
+          "correct": true,
+          "next": "scene11"
+        }
+      ]
+    }
+  },
+  {
+    "id": "scene11",
+    "description": "Pikachu90021 (George)",
+    "question": {
+      "text": "Way back then chat fought with Meiya to add this emote on stream to the point of people making PowerPoints as to why we need it, what emote was this?",
+      "options": [
+        {
+          "text": "peepoRasp",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "PEEPEES",
+          "correct": true,
+          "next": "scene12"
+        },
+        {
+          "text": "PantsGrab",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "ICANT",
+          "correct": false,
+          "next": "scene1001"
+        }
+      ]
+    }
+  },
+  {
+    "id": "scene12",
+    "description": "Neji",
+    "question": {
+      "text": "What creature is Meiya known for killing (In game)?",
+      "options": [
+        {
+          "text": "Dolphins",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "Turtles",
+          "correct": true,
+          "next": "scene13"
+        },
+        {
+          "text": "Rabbits",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "Alligators",
+          "correct": false,
+          "next": "scene1001"
+        }
+      ]
+    }
+  },
+  {
+    "id": "scene13",
+    "description": "MetalOverlordX",
+    "question": {
+      "text": "What does Meiya like in her pizza?",
+      "options": [
+        {
+          "text": "Pepperoni with Extra Sauce",
+          "correct": true,
+          "next": "scene14"
+        },
+        {
+          "text": "Extra Cheese with Chicken",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "Balsamic Glaze with Bacon & Ham",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "Plain Cheese Pizza",
+          "correct": false,
+          "next": "scene1001"
+        }
+      ]
+    }
+  },
+  {
+    "id": "scene14",
+    "description": "Fayris",
+    "question": {
+      "text": "Which game did Meiya first ever sang/made up the Debt Song?",
+      "options": [
+        {
+          "text": "Super Mario Sunshine",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "Pokemon Brilliant Diamond/Shining Pearl",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "Kirby & the Forgotten Land",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "Yakuza 0",
+          "correct": true,
+          "next": "scene15"
+        }
+      ]
+    }
+  },
+  {
+    "id": "scene15",
+    "description": "Star",
+    "question": {
+      "text": "Which game was Meiya playing when she got approved as a partner?",
+      "options": [
+        {
+          "text": "Elden Ring",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "The Witcher 3",
+          "correct": true,
+          "next": "scene16"
+        },
+        {
+          "text": "Sekiro",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "A Hat in Time",
+          "correct": false,
+          "next": "scene1001"
+        }
+      ]
+    }
+  },
+  {
+    "id": "scene16",
+    "description": "Digi",
+    "question": {
+      "text": "Excluding Strangers of Paradise, which main line Final Fantasy game did Meiya stream first?",
+      "options": [
+        {
+          "text": "FF 7",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "FF 10",
+          "correct": true,
+          "next": "scene17"
+        },
+        {
+          "text": "FF 8",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "FF 9",
+          "correct": false,
+          "next": "scene1001"
+        }
+      ]
+    }
+  },
+  {
+    "id": "scene17",
+    "description": "Onyx",
+    "question": {
+      "text": "What day was Meiya's 2.0 debut?",
+      "options": [
+        {
+          "text": "September 1st 2022",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "October 1st 2022",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "September 12th 2022",
+          "correct": false,
+          "next": "scene1001"
+        },
+        {
+          "text": "October 12th 2022",
+          "correct": true,
+          "next": "scene18"
+        }
+      ]
+    }
+  },
+  {
+    "id": "scene1001",
+    "description": "Oh, nameHere answered wrong? Well, that's too bad, isn't it? It would be too bad if they were to have to try again, wouldn't it? Well, that's exactly whats going to happen, but they should hurry! There isn't much time left.",
+    "next": "scene10"
+  },
+  {
+    "id": "scene18",
+    "description": "Each question and answer brought one piece of the puzzle, all those marvellous memories and people. nameHere was so happy there, but why? Why would they leave? Why did they forget about it all? nameHere knows that they would never want to leave and even now they don’t want anything else than just going back to them, going back to where they belong.",
+    "next": "scene19"
+  },
+  {
+    "id": "scene19",
+    "description": "Impatience fills them and nameHere can’t help but notice a package that they have been carrying since they woke up. Is this related to the reason as for why they left? It must be… nameHere knows it’s important and that they must have it with them.",
+    "next": "scene20"
+  },
+  {
+    "id": "scene20",
+    "description": "Before nameHere can finish organizing their thoughts they notice that are some wooden doors close by and no space distortion this time… And as nameHere gets closer they can recognize two wisps that they saw before, Fayris and Yuzz, who guided they gently at the start of their journey.",
+    "next": "scene21"
+  },
+  {
+    "id": "scene21",
+    "description": "Both of them start speaking at the same time, asking how their journey there was, if nameHere had a good time. At first the conversation seems like idle chatter but as it goes on the last piece of the puzzle falls in place…",
+    "next": "scene22"
+  },
+  {
+    "id": "scene22",
+    "description": "nameHere finally remembers! Meiya’s birthday! they went to get a present for her but strayed too far from the shrine which is the place that maintains their form, the other two explain as the doors start to open.",
+    "next": "scene23"
+  },
+  {
+    "id": "scene23",
+    "description": "They tease they and usher them to hurry, if nameHere doesn't want to be late. Late? Is it today!? nameHere frantically goes inside, going back home."
   }
 ]
