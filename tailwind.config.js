@@ -12,6 +12,9 @@ module.exports = {
         'test-webp': "url('/test.webp')",
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      minWidth: {
+        '500': '500px',
       }
     },
   },

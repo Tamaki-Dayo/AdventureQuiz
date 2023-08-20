@@ -26,7 +26,7 @@ export default function Ending({playerName}) {
       {!showArt && !showCredit && (
         <div className='flex flex-col items-center justify-center h-screen tracking-widest'>
           <h1 className="text-center text-8xl font-extrabold text-white">The End</h1>
-          <h1 className="text-center text-6xl font-extrabold text-white">Thank you for playing {playerName}</h1>
+          <h1 className="text-center text-6xl font-extrabold text-white mt-4">Thank you for playing {playerName}</h1>
         </div>
       )}
     </>
