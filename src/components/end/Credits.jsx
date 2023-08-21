@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Credits({ handleNext }) {
   return (
-    <div className='flex items-center justify-center h-screen tracking-widest' onClick={handleNext}>
+    <div className='flex items-center justify-center h-screen tracking-widest relative' onClick={handleNext}>
       <div className='mt-16'>
         <h1 className="text-center text-8xl font-extrabold text-white mb-16">Credits</h1>
         <div className="grid grid-cols-2 gap-x-20 gap-y-8">
