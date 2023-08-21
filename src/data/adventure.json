@@ -27,6 +27,7 @@
   {
     "id": "scene6",
     "description": "Yuzz",
+    "background": "",
     "question": {
       "text": "When was Meiya's first ever karaoke stream?",
       "options": [
@@ -76,6 +77,7 @@
   {
     "id": "scene10",
     "description": "Meyvol",
+    "background": "library",
     "question": {
       "text": "What game has Meiya told on stream that started chats whole funny copypasta shenanigans?",
       "options": [
@@ -105,6 +107,7 @@
   {
     "id": "scene11",
     "description": "Pikachu90021 (George)",
+    "background": "tall-grass",
     "question": {
       "text": "Way back then chat fought with Meiya to add this emote on stream to the point of people making PowerPoints as to why we need it, what emote was this?",
       "options": [
@@ -134,6 +137,7 @@
   {
     "id": "scene12",
     "description": "Neji",
+    "background": "robots",
     "question": {
       "text": "What creature is Meiya known for killing (In game)?",
       "options": [
@@ -163,6 +167,7 @@
   {
     "id": "scene13",
     "description": "MetalOverlordX",
+    "background": "",
     "question": {
       "text": "What does Meiya like in her pizza?",
       "options": [
@@ -192,6 +197,7 @@
   {
     "id": "scene14",
     "description": "Fayris",
+    "background": "",
     "question": {
       "text": "Which game did Meiya first ever sang/made up the Debt Song?",
       "options": [
@@ -221,6 +227,7 @@
   {
     "id": "scene15",
     "description": "Star",
+    "background": "upside-down",
     "question": {
       "text": "Which game was Meiya playing when she got approved as a partner?",
       "options": [
@@ -250,6 +257,7 @@
   {
     "id": "scene16",
     "description": "Digi",
+    "background": "cave",
     "question": {
       "text": "Excluding Strangers of Paradise, which main line Final Fantasy game did Meiya stream first?",
       "options": [
@@ -279,6 +287,7 @@
   {
     "id": "scene17",
     "description": "Onyx",
+    "background": "british",
     "question": {
       "text": "What day was Meiya's 2.0 debut?",
       "options": [
@@ -323,20 +332,24 @@
   {
     "id": "scene20",
     "description": "Before nameHere can finish organizing their thoughts they notice that are some wooden doors close by and no space distortion this time… And as nameHere gets closer they can recognize two wisps that they saw before, Fayris and Yuzz, who guided they gently at the start of their journey.",
+    "background": "doors",
     "next": "scene21"
   },
   {
     "id": "scene21",
     "description": "Both of them start speaking at the same time, asking how their journey there was, if nameHere had a good time. At first the conversation seems like idle chatter but as it goes on the last piece of the puzzle falls in place…",
+    "background": "doors",
     "next": "scene22"
   },
   {
     "id": "scene22",
     "description": "nameHere finally remembers! Meiya’s birthday! they went to get a present for her but strayed too far from the shrine which is the place that maintains their form, the other two explain as the doors start to open.",
+    "background": "test",
     "next": "scene23"
   },
   {
     "id": "scene23",
-    "description": "They tease they and usher them to hurry, if nameHere doesn't want to be late. Late? Is it today!? nameHere frantically goes inside, going back home."
+    "description": "They tease they and usher them to hurry, if nameHere doesn't want to be late. Late? Is it today!? nameHere frantically goes inside, going back home.",
+    "background": "test"
   }
 ]
