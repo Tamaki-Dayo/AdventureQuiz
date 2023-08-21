@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import Credits from '../end/Credits'
 import Art from '../end/Art'
+import Loader from '../common/Loader'
 
 export default function Ending({playerName}) {
   const [showArt, setShowArt] = useState(true)
   const [showCredit, setShowCredit] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
   
   const handleArtNext = () => {
     setShowArt(false)
@@ -15,10 +17,18 @@ export default function Ending({playerName}) {
     setShowArt(false)
     setShowCredit(false)
   }
+
+  const handleImageLoad = () => {
+    setIsLoading(false);
+  };
+
   return (
     <>
       {showArt && (
-        <Art handleArtNext={() => handleArtNext()} />
+        <>
+          {isLoading && <Loader />} 
+          <Art handleArtNext={() => handleArtNext()} onLoad={handleImageLoad} />
+        </>
       )}
       {showCredit && (
         <Credits handleNext={() => handleNext()}/>
