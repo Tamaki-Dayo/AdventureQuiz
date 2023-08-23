@@ -18,7 +18,9 @@ export default function Home() {
     <div className='h-screen'>
       {showAdventure ? <Adventure name={name} /> : (
         <div className="flex h-screen items-center justify-center">
-          <div className="absolute inset-0 bg-[url('/test.png')] opacity-75 "></div>
+          {/* Change test.png */}
+          <div className="absolute inset-0 bg-[url('/te
+          st.png')] opacity-75 "></div>
           <div className="relative">
             <p className="text-center text-2xl font-extrabold text-white">You open your eyes... Before you is a forest, behind you a white expanse. Something calls you into that forest but you don't remember anything except your name.</p>
             <div className='flex justify-center items-center h-full'>
