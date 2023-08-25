@@ -41,7 +41,7 @@ export default function Adventure({ name }) {
         </>
       ) : (
         <>
-          {currentSceneData.background && <div style={{ backgroundImage: `url('/${currentSceneData.background}.webp')` }} className="absolute inset-0 opacity-75 "></div>}
+          {currentSceneData.background && <div style={{ backgroundImage: `url('/${currentSceneData.background}.webp')` }} className="absolute inset-0 opacity-75"></div>}
           <Textbox description={updatedSentence ? updatedSentence : currentSceneData.description} handleContinue={() => handleLastContinue()}/>
         </>
         )
@@ -50,7 +50,7 @@ export default function Adventure({ name }) {
 
   return (
     <>
-      {currentSceneData.background ? <div style={{ backgroundImage: `url('/${currentSceneData.background}.webp')` }} className={`absolute inset-0 opacity-75`}></div> : <div className="absolute inset-0 bg-[url('/test.png')] opacity-75 "></div>}
+      {currentSceneData.background ? <div style={{ backgroundImage: `url('/${currentSceneData.background}.webp')` }} className={`absolute inset-0 opacity-75 bg-cover`}></div> : <div className="absolute inset-0 bg-[url('/forest.webp')] opacity-75"></div>}
       <div className="flex justify-center h-screen">
         {!currentSceneData.question && (
           <Textbox description={updatedSentence ? updatedSentence : currentSceneData.description} handleContinue={() => handleContinue(currentSceneData.next)}/>

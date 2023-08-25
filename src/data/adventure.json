@@ -27,7 +27,7 @@
   {
     "id": "scene6",
     "description": "Yuzz",
-    "background": "",
+    "background": "cat",
     "question": {
       "text": "When was Meiya's first ever karaoke stream?",
       "options": [
@@ -167,7 +167,7 @@
   {
     "id": "scene13",
     "description": "MetalOverlordX",
-    "background": "",
+    "background": "metal",
     "question": {
       "text": "What does Meiya like in her pizza?",
       "options": [
@@ -197,7 +197,7 @@
   {
     "id": "scene14",
     "description": "Fayris",
-    "background": "",
+    "background": "fox",
     "question": {
       "text": "Which game did Meiya first ever sang/made up the Debt Song?",
       "options": [
@@ -344,12 +344,12 @@
   {
     "id": "scene22",
     "description": "nameHere finally remembers! Meiya’s birthday! they went to get a present for her but strayed too far from the shrine which is the place that maintains their form, the other two explain as the doors start to open.",
-    "background": "test",
+    "background": "doors",
     "next": "scene23"
   },
   {
     "id": "scene23",
     "description": "They tease they and usher them to hurry, if nameHere doesn't want to be late. Late? Is it today!? nameHere frantically goes inside, going back home.",
-    "background": "test"
+    "background": "doors"
   }
 ]
