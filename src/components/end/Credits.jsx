@@ -12,7 +12,7 @@ export default function Credits({ handleNext }) {
           <p className="text-4xl text-gray-100">Tempest Sonata</p>
           <h2 className="text-end text-4xl text-gray-300">Lead Developer</h2>
           <p className="text-4xl text-gray-100">Tamaki Dayo</p>
-          <h2 className="text-end text-4xl text-gray-300">Specialist Consultant</h2>
+          <h2 className="text-end text-4xl text-gray-300">#1 Hired Mod</h2>
           <p className="text-4xl text-gray-100">Metal OverlordX</p>
         </div>
         <h2 className='text-center text-5xl font-extrabold text-white mt-20'>Special Thanks</h2>

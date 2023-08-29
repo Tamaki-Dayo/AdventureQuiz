@@ -1,17 +1,17 @@
 [
   {
     "id": "scene1",
-    "description": "They start moving forward… But then they notice, how are they doing it? They don’t feel the ground below their… Feet? Looking down confusion strikes; they don’t have feet! Hell, they don’t even have legs! But when they are going to start panicking memories come back to them.",
+    "description": "They start moving forward… But then they notice, how are they doing it? They don’t feel the ground below their… Feet? Looking down, confusion strikes; they don’t have feet! Hell, they don’t even have legs! But when they are going to start panicking, memories come back to them.",
     "next": "scene2"
   },
   {
     "id": "scene2",
-    "description": "Yes, this is totally normal, nameHere are a wisp after all. Now that they have a sense of self things start making a little more sense, though they still don’t remember much.",
+    "description": "Yes, this is normal, nameHere is a wisp after all. Now that they have a sense of self, things start making a little more sense, though they still don’t remember much.",
     "next": "scene3"
   },
   {
     "id": "scene3",
-    "description": "Assuming that the forest may hold answers and even their memories nameHere continues moving forward until space starts to contort and change and another wisp appears just in front of them.",
+    "description": "Assuming that the forest may hold answers and even their memories, nameHere continues moving forward until space starts to contort and change, and another wisp appears just in front of them.",
     "next": "scene4"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "id": "scene5",
-    "description": "Before nameHere can even try and say anything they just ask them a question, giving even options to answer it.",
+    "description": "Before nameHere can even try and say anything, they just ask them a question, giving even options to answer it.",
     "next": "scene6"
   },
   {
@@ -56,12 +56,12 @@
   },
   {
     "id": "scene100",
-    "description": "No... It wasn't like that... They remember now, yes, that actually happened on December 25th 2022, they have seen it happen, actually. How could nameHere have forgotten? They remember now, this Meiya was an important figure for them, someone that they looked up to for several reasons..",
+    "description": "No... It wasn't like that... They remember now, yes, that actually happened on December 25th 2022, they have seen it happen, actually. How could nameHere have forgotten? They remember now, this Meiya was an important figure for them, someone that they looked up to for several reasons...",
     "next": "scene8"
   },
   {
     "id": "scene7",
-    "description": "nameHere answered using their instinct but they remember now… Yes, that happened, they have seen it happen, actually. How could nameHere have forgotten? They remember now, this Meiya was an important figure for them, someone that they looked up to for several reasons.",
+    "description": "nameHere answered using their instinct, but they remember now… Yes, that happened, they have seen it happen, actually. How could nameHere have forgotten? They remember now, this Meiya was an important figure for them, someone that they looked up to for several reasons.",
     "next": "scene8"
   },
   {
@@ -71,7 +71,7 @@
   },
   {
     "id": "scene9",
-    "description": "Not much time passes before the situation repeats itself. Space contorts and changes and another wisp appears in front of nameHere… Already expecting this it doesn’t suppose too much of a surprise anymore.",
+    "description": "Not much time passes before the situation repeats itself. Space contorts and changes, and another wisp appears in front of nameHere… Already expecting this, it doesn’t suppose too much of a surprise anymore.",
     "next": "scene10"
   },
   {
@@ -316,34 +316,34 @@
   },
   {
     "id": "scene1001",
-    "description": "Oh, nameHere answered wrong? Well, that's too bad, isn't it? It would be too bad if they were to have to try again, wouldn't it? Well, that's exactly whats going to happen, but they should hurry! There isn't much time left.",
+    "description": "Oh, nameHere answered wrong? Well, that's too bad, isn't it? It would be too bad if they were to have to try again, wouldn't it? Well, that's exactly what's going to happen, but they should hurry! There isn't much time left.",
     "next": "scene10"
   },
   {
     "id": "scene18",
-    "description": "Each question and answer brought one piece of the puzzle, all those marvellous memories and people. nameHere was so happy there, but why? Why would they leave? Why did they forget about it all? nameHere knows that they would never want to leave and even now they don’t want anything else than just going back to them, going back to where they belong.",
+    "description": "Each question and answer brought one piece of the puzzle, all those marvelous memories and people. nameHere was so happy there, but why? Why would they leave? Why did they forget about it all? nameHere knows that they would never want to leave and even now they don’t want anything else than just going back to them, going back to where they belong.",
     "next": "scene19"
   },
   {
     "id": "scene19",
-    "description": "Impatience fills them and nameHere can’t help but notice a package that they have been carrying since they woke up. Is this related to the reason as for why they left? It must be… nameHere knows it’s important and that they must have it with them.",
+    "description": "Impatience fills them, and nameHere can’t help but notice a package that they have been carrying since they woke up. Is this related to the reason as for why they left? It must be… nameHere knows it’s important and that they must have it with them.",
     "next": "scene20"
   },
   {
     "id": "scene20",
-    "description": "Before nameHere can finish organizing their thoughts they notice that are some wooden doors close by and no space distortion this time… And as nameHere gets closer they can recognize two wisps that they saw before, Fayris and Yuzz, who guided they gently at the start of their journey.",
+    "description": "Before nameHere can finish organizing their thoughts, they notice that are some wooden doors close by and no space distortion this time… And as nameHere gets closer they can recognize two wisps that they saw before, Fayris and Yuzz, who guided they gently at the start of their journey.",
     "background": "doors",
     "next": "scene21"
   },
   {
     "id": "scene21",
-    "description": "Both of them start speaking at the same time, asking how their journey there was, if nameHere had a good time. At first the conversation seems like idle chatter but as it goes on the last piece of the puzzle falls in place…",
+    "description": "Both of them start speaking at the same time, asking how their journey there was, if nameHere had a good time. At first the conversation seems like idle chatter, but as it goes on the last piece of the puzzle falls in place…",
     "background": "doors",
     "next": "scene22"
   },
   {
     "id": "scene22",
-    "description": "nameHere finally remembers! Meiya’s birthday! they went to get a present for her but strayed too far from the shrine which is the place that maintains their form, the other two explain as the doors start to open.",
+    "description": "nameHere finally remembers! Meiya’s birthday! They went to get a present for her but strayed too far from the shrine which is the place that maintains their form, the other two explain as the doors start to open.",
     "background": "doors",
     "next": "scene23"
   },
