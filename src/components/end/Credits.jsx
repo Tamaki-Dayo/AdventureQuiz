@@ -26,6 +26,7 @@ export default function Credits({ handleNext }) {
           <div className='text-3xl text-gray-100 w-1/4 py-3'>Star</div>
           <div className='text-3xl text-gray-100 w-1/4 py-3'>Onyx</div>
           <div className='text-3xl text-gray-100 w-1/4 py-3'>Matt</div>
+          <div className='text-3xl text-gray-100 w-1/4 py-3'>Cranky</div>
         </div>
       </div>
     </div>
